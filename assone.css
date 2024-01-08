@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.inter-font {
+    font-family: 'Inter', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@900&display=swap');
+
+.merriweather-font {
+    font-family: 'Merriweather', serif;
+}
+
+* {
+    margin: 0px;
+}
+
+#footer {
+    background: #070211;
+}
+
+.container {
+    width: 82%;
+    max-width: 1320px;
+    margin: 0px auto;
+}
+
+.footer-section {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 500;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    margin-top: 120px;
+}
+
+.icon-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #424b53;
+    border-bottom: 1px solid #424b53;
+    padding: 48px 0px;
+}
+
+.copyright-section {
+    width: 82%;
+    max-width: 1320px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 500;
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+
+.header-banner {
+    background-image: url('./resources/banner-image.png');
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    margin-bottom: 120px;
+    margin-top: 20px;
+}
+
+.header-h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 177px;
+}
+
+.header-h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.second-section-h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.second-section-h6 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.second-section-h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.second-section-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+
+.third-section-main {
+    background-image: url(./resources/vectorr.png);
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    margin-bottom: 120px;
+}
+
+.third-section-h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    padding-top: 220px;
+    padding-left: 80px;
+}
+
+.third-section-p {
+    color: white;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 24px;
+    padding-left: 80px;
+}
+
+.third-section-a {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    padding-top: 458px;
+    padding-left: 138px;
+}
+
+.third-section-main {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.third-section-img {
+    padding: 68px 138px 68px 0px;
+}
+
+.fourth-section {
+    background-color: #ffe9e9;
+    text-align: center;
+    padding-bottom: 110px;
+}
+
+.fourth-section-New {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    padding-top: 100px;
+}
+.fourth-section-Date {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    padding-top: 5px;
+}
+.fourth-section-Time{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    padding-top: 5px;
+    padding-bottom: 48px;
+}
+
+.fourth-section-color {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+}
+.fourth-section-btn{
+ background-color:#FF0000 ;
+ padding: 10px 32px;   
+ color: #FFF;
+ border-radius: 8px;
+}
