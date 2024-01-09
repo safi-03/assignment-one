@@ -227,12 +227,84 @@ p {
 .fifth-section {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #FFF;
     margin-top: 120px;
 }
-.ellipse{
-    padding:40px;
+
+.ellipse {
+    padding: 40px;
     border: 14px solid #FF0000;
     border-radius: 463px;
+}
+
+.fifth-section-h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.fifth-section-h2-2024 {
+    margin-left: 0px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.fifth-section-p {
+    color: #bababa;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 0px;
+    
+}
+
+.fifth-section-three {
+    padding-right: 40px;
+}
+
+.ellipse-pic {
+    padding: 0px 80px 0px 60px;
+}
+
+.happy-new-year-png {
+    padding-top: 40px;
+}
+
+.fifth-section-h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.six-section-text {
+    text-align: center;
+}
+
+.six-section-text-h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 120px;
+}
+
+.six-section-text-h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.six-section-text-p {
+    text-align: center;
+    padding: 28px 240px;
+}
+
+.Holidays {
+    color: #F00;
 }
