@@ -46,6 +46,10 @@
     padding: 48px 0px;
 }
 
+.social-icon {
+    padding-left: 24px;
+}
+
 .footer-contact,
 p {
     display: flex;
@@ -219,9 +223,10 @@ p {
 
 .fourth-section-btn {
     background-color: #FF0000;
-    padding: 10px 32px;
+    padding: 20px 42px;
     color: #FFF;
     border-radius: 8px;
+    border: #FF0000;
 }
 
 .fifth-section {
@@ -259,7 +264,7 @@ p {
     font-size: 20px;
     font-weight: 400;
     padding-left: 0px;
-    
+
 }
 
 .fifth-section-three {
@@ -308,3 +313,78 @@ p {
 .Holidays {
     color: #F00;
 }
+
+.seven-section-text {
+    margin-top: 120px
+}
+
+.Portfolio {
+    margin-top: 18px;
+}
+
+.Dolor {
+    margin-top: 22px;
+}
+
+.collection-image {
+    margin-top: 48px;
+    display: flex;
+    gap: 24px;
+}
+
+.collection-image-two {
+    margin-top: 24px;
+    display: flex;
+    gap: 24px;
+}
+
+.newslatter-section {
+    width: 1320px;
+    height: 616px;
+    flex-shrink: 0;
+    background-color: #FF00000D;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.newslatter-section-h2 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 40px;
+}
+
+.newslatter-section-p {
+    text-align: center;
+    padding: 28px 240px;
+    color: #a5a5a5;
+}
+
+.newslatter-section-img {
+    padding-top: 80px;
+}
+
+.Subscribe {
+    display: flex;
+    align-items: center;
+}
+
+/* .Subscribe,
+div,
+input {
+    width: 548px;
+    margin: 28px auto;
+}
+
+.Subscribe-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 24px 58px 24px 58px;
+    border: none;
+    background-color: #FF0000;
+} */
