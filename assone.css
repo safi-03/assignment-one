@@ -46,6 +46,13 @@
     padding: 48px 0px;
 }
 
+.footer-contact,
+p {
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+}
+
 .copyright-section {
     width: 82%;
     max-width: 1320px;
@@ -182,6 +189,7 @@
     line-height: 56px;
     padding-top: 100px;
 }
+
 .fourth-section-Date {
     color: #070211;
     font-family: Inter;
@@ -190,7 +198,8 @@
     line-height: 56px;
     padding-top: 5px;
 }
-.fourth-section-Time{
+
+.fourth-section-Time {
     color: #070211;
     font-family: Inter;
     font-size: 32px;
@@ -207,9 +216,23 @@
     font-size: 32px;
     font-weight: 600;
 }
-.fourth-section-btn{
- background-color:#FF0000 ;
- padding: 10px 32px;   
- color: #FFF;
- border-radius: 8px;
+
+.fourth-section-btn {
+    background-color: #FF0000;
+    padding: 10px 32px;
+    color: #FFF;
+    border-radius: 8px;
+}
+
+.fifth-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF;
+    margin-top: 120px;
+}
+.ellipse{
+    padding:40px;
+    border: 14px solid #FF0000;
+    border-radius: 463px;
 }
